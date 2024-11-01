@@ -25,3 +25,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.down-arrow::after {
+  content: '˅'; /* Unicode character for the down arrow */
+  margin-left: 4px;
+  font-size: 0.75em;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 29px; 
+  height: 24px; 
+}
+
+
